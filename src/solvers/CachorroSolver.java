@@ -4,22 +4,20 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Set;
+import java.util.Arrays;
 
 import answer.Answer;
-import game.MasterMind;
 import java.util.*;
 
 public class CachorroSolver implements Solver {
         
 	HashMap<String, Integer> hash = new HashMap<String, Integer>();
 
-	// state = melhor estado do programa até agora
 	public String state = "";
-	// numero de acertos de numeros desse estado (não leva em conta posição)
 	public int acertos_state = 0;
+	public int acertos_position = 0;
 	/**
 	 * This method solves a mastermind game
-	 * Este solver não lida com repetição do alfabeto
 	 */
 	@Override
 	public int solve(Set<Character> charactersSet, int size, Answer answer){
@@ -29,41 +27,76 @@ public class CachorroSolver implements Solver {
 		String response = "";
 		state = "";
 		acertos_state = 0;
+		acertos_position = 0;
+		boolean primeira_iteracao=false;
 		
-		// inicializa o state com "0123...size"
+		// inicializa o state
 		for (Integer i=0;i<size;i++) {
 			state = state.concat(i.toString());
 		}
 		
-		// inicializa o acertos_state
 		response = answer.analyze(state);
 		for (int i=0;i<size;i++) {
 			if (response.charAt(i)=='b' || response.charAt(i)=='w') {
 				acertos_state++;
 			}
 		}
+
 		// vê se acertou de primeira
 		while (!correct(response)) {
 			// gera uma nova tentativa com base no state trocando
-			// 'size-acertos_state' números e mantendo os outros
-			shot = generateRandomShot(charactersSet, size);
-			
-			// analisa a tentativa, se for melhor é o novo state
-			// se não mantém o state antigo e faz outra tentativa
-			response = answer.analyze(shot);
-			acertos = 0;
-			for (int i=0;i<size;i++) {
-				if (response.charAt(i)=='b' || response.charAt(i)=='w') {
-					acertos++;
+			// o numero de numeros 'erros' aleatoriamente
+			if (acertos_state<size) {
+				primeira_iteracao=true;
+				shot = generateRandomShot(charactersSet, size);
+				
+				// analisa a tentativa, se for melhor é o novo state
+				// se não mantém o state antigo e faz outra tentativa
+				response = answer.analyze(shot);
+				// conta quantos acertos
+				acertos = 0;
+				for (int i=0;i<size;i++) {
+					if (response.charAt(i)=='b' || response.charAt(i)=='w') {
+						acertos++;
+					}
+				}
+				// System.out.println("Analise: " + response);
+				// System.out.println("Tentativa: " + shot);
+				// System.out.println("Acertos: " + acertos);
+				
+				if (acertos > acertos_state) {
+					state = shot;
+					acertos_state = acertos;
+					// System.out.println("Melhor estado: " + state);
 				}
 			}
-			
-			if (acertos > acertos_state) {
-				// não sei se pode isso, provavelmente não
-				state = shot;
-				acertos_state = acertos;
+			else if (acertos_state==size){
+				// EU SEMPRE PRECISO INICIALIZAR (vai que é a certa e eu elimino da hash (na vdd n tem como, se for a certa ele n volta mais))
+				if (!primeira_iteracao){
+					shot = generateRandomShot(charactersSet, size);
+				}
+				primeira_iteracao=false;
+				
+				// analisa a tentativa, se for melhor é o novo state
+				// se não mantém o state antigo e faz outra tentativa
+				response = answer.analyze(shot);
+				// conta quantos acertos
+				acertos = 0;
+				for (int i=0;i<size;i++) {
+					if (response.charAt(i)=='b') {
+						acertos++;
+					}
+				}
+				// System.out.println("Analise: " + response);
+				// System.out.println("Tentativa: " + shot);
+				// System.out.println("Acertos: " + acertos);
+				
+				if (acertos > acertos_position) {
+					state = shot;
+					acertos_position = acertos;
+					// System.out.println("Melhor estado: " + state);
+				}
 			}
-			
 		}
 		System.out.println("Resposta encontrada! ("+shot+") em "+answer.getNumberOfTries()+" Tentativas!");
 		return answer.getNumberOfTries();
@@ -90,44 +123,88 @@ public class CachorroSolver implements Solver {
 	 * @param hashMap
 	 * @return
 	 */
-	// gerar a tentativa
+	// gerar a tentativa (lembrar de mudar as posições)
 	protected String generateRandomShot(Set<Character> charactersSet, int size) {
 		ArrayList<Character> charArray = new ArrayList<Character>();
 		ArrayList<Character> charState = new ArrayList<Character>();
 		String s = "";
-		//charSet has all characters from the set. 
         for (char c:charactersSet) {
 			charArray.add(c);
 		}
-		//charState has all characters from the state. 
-        for (int i=0;i<size;i++) {
-			charState.add(state.charAt(i));
-		}
 		do {
-			//não acertamos o 5 numeros ainda
 			if (acertos_state<size) {
 				s="";
-				//insere 'acertos_state' chars de charState no inicio de 's'
+				for (int i=0;i<size;i++) {
+					charState.add(state.charAt(i));
+				}
+				//now charArray has all characters from the set. 
 				Collections.shuffle(charState); //shuffles the state
 				for (int i=0; i<acertos_state; i++) {
 					s = s.concat(String.valueOf(charState.get(i)));
 				}
-				//insere chars de charArray em 's' até 's.lenght()==5'
-				//toma cuidado pra não repetir os numeros
-				Collections.shuffle(charArray); //shuffles the arraylist
+				Collections.shuffle(charArray);
 				for (int i=0; s.length()<size;i++) {
 					if (s.indexOf(charArray.get(i))==-1) {
 						s = s.concat(String.valueOf(charArray.get(i)));
 					}
 				}
+				charState.clear();
 			}
-			//caso tenhamos acertado os 5 numeros só mudamos a ordem
 			else if (acertos_state==size) {
-				s="";
-				Collections.shuffle(charState); //shuffles the state
-				for (int i=0; i<acertos_state; i++) {
-					s = s.concat(String.valueOf(charState.get(i)));
+				Random rand = new Random();
+				int vetor[];
+				vetor = new int[size];
+				boolean repetido=false;
+				
+				for (int i=0;i<size;i++) {
+					vetor[i]=size+1;
 				}
+				
+				s="";
+				// manter 'acertos_position' no lugar e trocar o resto
+				// fazer um vetor de indices que queremos manter no lugar
+				for (int i=0; i<acertos_position;) {
+					int aux = rand.nextInt(size);
+					repetido=false;
+					for (int j=0;j<size;j++) {
+						if(aux==vetor[j]) {
+							repetido=true;
+						}
+					}
+					if(!repetido) {
+						vetor[i]=aux;
+						i++;
+					}
+				}
+				// colocar os que sobraram em charState
+				for (int i=0;i<size;i++) {
+					repetido=false;
+					for (int j=0; j<acertos_position;j++) {
+						if (i==vetor[j]) {
+							repetido=true;
+						}
+					}
+					if(!repetido) {
+						charState.add(state.charAt(i));	
+					}
+				}
+
+				Arrays.sort(vetor);
+				Collections.shuffle(charState);
+				
+				// escrever em ordem
+				int j=0;
+				for (int i=0; i<size; i++) {
+					if (i==vetor[j]) {
+						s = s.concat(String.valueOf(state.charAt(i)));
+						j++;
+					}
+					else {
+						s = s.concat(String.valueOf(charState.get(0)));
+						charState.remove(0);
+					}
+				}
+				charState.clear();
 			}
 		} while(hash.containsKey(s));
 		hash.put(s, 1);
