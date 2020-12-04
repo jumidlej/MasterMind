@@ -21,7 +21,7 @@ public class CachorroSolver implements Solver {
 	 */
 	@Override
 	public int solve(Set<Character> charactersSet, int size, Answer answer){
-		hash.clear();
+		ArrayList<Character> charArray = new ArrayList<Character>();
 		int acertos_e = 0;
 		int acertos_p = 0;
 		String shot = "";
@@ -30,9 +30,12 @@ public class CachorroSolver implements Solver {
 		acertos_elements = 0;
 		acertos_position = 0;
 		
-		// inicializa o state com 0123...
+		for (char c:charactersSet) {
+			charArray.add(c);
+		}
+		// inicializa o state com os primeiros elementos do set
 		for (Integer i=0;i<size;i++) {
-			state = state.concat(i.toString());
+			state = state.concat(String.valueOf(charArray.get(i)));
 		}
 		
 		// analisa o primeiro state
@@ -42,6 +45,9 @@ public class CachorroSolver implements Solver {
 				acertos_elements++;
 			}
 		}
+
+		// System.out.println("Primeiro estado: " + state);
+		// System.out.println("Acertos (elements): " + acertos_elements);
 
 		// faz novas tentativas até acertar
 		while (!correct(response)) {
@@ -62,16 +68,17 @@ public class CachorroSolver implements Solver {
 					acertos_p++;
 				}
 			}
-			System.out.println("Tentativa: " + shot);
-			System.out.println("Acertos (elements): " + acertos_e);
-			System.out.println("Acertos (position): " + acertos_p);
+
+			// System.out.println("Tentativa: " + shot);
+			// System.out.println("Acertos (elements): " + acertos_e);
+			// System.out.println("Acertos (position): " + acertos_p);
 			
 			// ainda não sabemos todos os elementos
 			if (acertos_elements<size) {
 				if (acertos_e > acertos_elements) {
 					state = shot;
 					acertos_elements = acertos_e;
-					System.out.println("Melhor estado (elements): " + state);
+					// System.out.println("Melhor estado (elements): " + state);
 					
 				}
 				// inicializa para mudar apenas as posições
@@ -84,10 +91,12 @@ public class CachorroSolver implements Solver {
 				if (acertos_p > acertos_position) {
 					state = shot;
 					acertos_position = acertos_p;
-					System.out.println("Melhor estado (position): " + state);
+					// System.out.println("Melhor estado (position): " + state);
 				}
 			}
 		}
+		charArray.clear();
+		hash.clear();
 		System.out.println("Resposta encontrada! ("+shot+") em "+answer.getNumberOfTries()+" Tentativas!");
 		return answer.getNumberOfTries();
 	}
@@ -207,6 +216,7 @@ public class CachorroSolver implements Solver {
 			}
 		} while(hash.containsKey(s));
 		hash.put(s, 1);
+		charArray.clear();
 		return s;
 	}
 
