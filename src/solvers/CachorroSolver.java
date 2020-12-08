@@ -12,6 +12,7 @@ import java.util.*;
 public class CachorroSolver implements Solver {
         
 	HashMap<String, Integer> hash = new HashMap<String, Integer>();
+	HashMap<String, Integer> hash_elements = new HashMap<String, Integer>();
 
 	public String state = "";
 	public int acertos_elements = 0;
@@ -24,11 +25,12 @@ public class CachorroSolver implements Solver {
 		ArrayList<Character> charArray = new ArrayList<Character>();
 		int acertos_e = 0;
 		int acertos_p = 0;
-		String shot = "";
-		String response = "";
-		state = "";
 		acertos_elements = 0;
 		acertos_position = 0;
+		String shot = "";
+		String response = "";
+		String radical_elements = "";
+		state = "";
 		
 		for (char c:charactersSet) {
 			charArray.add(c);
@@ -37,6 +39,7 @@ public class CachorroSolver implements Solver {
 		for (Integer i=0;i<size;i++) {
 			state = state.concat(String.valueOf(charArray.get(i)));
 		}
+		charArray.clear();
 		
 		// analisa o primeiro state
 		response = answer.analyze(state);
@@ -46,13 +49,16 @@ public class CachorroSolver implements Solver {
 			}
 		}
 
+		// gerar o primeiro radical
+		radical_elements = generateElementsRadical(size);
+
 		// System.out.println("Primeiro estado: " + state);
 		// System.out.println("Acertos (elements): " + acertos_elements);
 
 		// faz novas tentativas até acertar
 		while (!correct(response)) {
 			// gera uma nova tentativa
-			shot = generateRandomShot(charactersSet, size);
+			shot = generateRandomShot(charactersSet, size, radical_elements);
 			
 			// analisa a tentativa, se for melhor é o novo state
 			// se não mantém o state antigo e faz outra tentativa
@@ -75,11 +81,15 @@ public class CachorroSolver implements Solver {
 			
 			// ainda não sabemos todos os elementos
 			if (acertos_elements<size) {
+				// atualiza o state e o radical
 				if (acertos_e > acertos_elements) {
 					state = shot;
 					acertos_elements = acertos_e;
+					radical_elements = generateElementsRadical(size);
 					// System.out.println("Melhor estado (elements): " + state);
-					
+				}
+				else if (acertos_e < acertos_elements) {
+					radical_elements = generateElementsRadical(size);
 				}
 				// inicializa para mudar apenas as posições
 				if(acertos_elements==size){
@@ -91,12 +101,12 @@ public class CachorroSolver implements Solver {
 				if (acertos_p > acertos_position) {
 					state = shot;
 					acertos_position = acertos_p;
-					// System.out.println("Melhor estado (position): " + state);
 				}
 			}
 		}
-		charArray.clear();
 		hash.clear();
+		hash_elements.clear();
+		charArray.clear();
 		System.out.println("Resposta encontrada! ("+shot+") em "+answer.getNumberOfTries()+" Tentativas!");
 		return answer.getNumberOfTries();
 	}
@@ -119,10 +129,41 @@ public class CachorroSolver implements Solver {
 	 * the HashMap (used to test if the shot is new)
 	 * @param charactersSet
 	 * @param size
+	 * @return
+	 */
+	protected String generateElementsRadical(int size) {
+		String radical = "";
+
+		ArrayList<Character> charState = new ArrayList<Character>();
+		for (int i=0;i<size;i++) {
+			charState.add(state.charAt(i));
+		}
+
+		do {
+			radical = "";
+			Collections.shuffle(charState); //shuffles the state
+
+			// coloca aleatoriamente 'acertos_elements' caracteres
+			// no inicio de 'radical' pegos do 'melhor state' atual
+			for (int i=0; i<acertos_elements; i++) {
+				radical = radical.concat(String.valueOf(charState.get(i)));
+			}
+		}while(hash_elements.containsKey(radical) && acertos_elements>0);
+		hash_elements.put(radical, 1);
+
+		charState.clear();
+		return radical;
+	}
+
+	/**
+	 * This method generates a new random shot and inserts it into
+	 * the HashMap (used to test if the shot is new)
+	 * @param charactersSet
+	 * @param size
 	 * @param hashMap
 	 * @return
 	 */
-	protected String generateRandomShot(Set<Character> charactersSet, int size) {
+	protected String generateRandomShot(Set<Character> charactersSet, int size, String radical_elements) {
 		ArrayList<Character> charArray = new ArrayList<Character>();
 		ArrayList<Character> charState = new ArrayList<Character>();
 		String s = "";
@@ -132,17 +173,7 @@ public class CachorroSolver implements Solver {
 		}
 		do {
 			if (acertos_elements<size) {
-				s="";
-				//now charState has all characters from the state. 
-				for (int i=0;i<size;i++) {
-					charState.add(state.charAt(i));
-				}
-				Collections.shuffle(charState); //shuffles the state
-				// coloca aleatoriamente 'acertos_elements' caracteres 
-				// no inicio de 's' pegos do melhor 'state' atual
-				for (int i=0; i<acertos_elements; i++) {
-					s = s.concat(String.valueOf(charState.get(i)));
-				}
+				s=radical_elements;
 				Collections.shuffle(charArray); //shuffles the array
 				// coloca aleatoriamente caracteres que faltam em 's'
 				// do set de caracteres
@@ -151,18 +182,16 @@ public class CachorroSolver implements Solver {
 						s = s.concat(String.valueOf(charArray.get(i)));
 					}
 				}
-				charState.clear();
 			}
 			else {
 				Random rand = new Random();
-				int vetor[];
-				vetor = new int[size];
+				int[] radical_position = new int[size];
 				boolean repetido=false;
 				s="";
 
-				// inicializa o vetor
+				// inicializa o radical
 				for (int i=0;i<size;i++) {
-					vetor[i]=size+1;
+					radical_position[i]=size+1;
 				}
 				
 				// faz um vetor de indices de caracteres do 'state'
@@ -171,21 +200,23 @@ public class CachorroSolver implements Solver {
 					int aux = rand.nextInt(size);
 					repetido=false;
 					for (int j=0;j<size;j++) {
-						if(aux==vetor[j]) {
+						if(aux==radical_position[j]) {
 							repetido=true;
 						}
 					}
 					if(!repetido) {
-						vetor[i]=aux;
+						radical_position[i]=aux;
 						i++;
 					}
 				}
+
+				Arrays.sort(radical_position);
 
 				// coloca os caracteres que sobraram em charState
 				for (int i=0;i<size;i++) {
 					repetido=false;
 					for (int j=0; j<acertos_position;j++) {
-						if (i==vetor[j]) {
+						if (i==radical_position[j]) {
 							repetido=true;
 						}
 					}
@@ -194,8 +225,6 @@ public class CachorroSolver implements Solver {
 					}
 				}
 
-				// ordena o vetor
-				Arrays.sort(vetor);
 				// mistura o charState
 				Collections.shuffle(charState);
 				
@@ -203,7 +232,7 @@ public class CachorroSolver implements Solver {
 				// na mesma posição e trocando os outros
 				int j=0;
 				for (int i=0; i<size; i++) {
-					if (i==vetor[j]) {
+					if (i==radical_position[j]) {
 						s = s.concat(String.valueOf(state.charAt(i)));
 						j++;
 					}
@@ -219,5 +248,4 @@ public class CachorroSolver implements Solver {
 		charArray.clear();
 		return s;
 	}
-
 }
