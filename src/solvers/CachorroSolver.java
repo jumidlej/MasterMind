@@ -27,6 +27,7 @@ public class CachorroSolver implements Solver {
 		int acertos_p = 0;
 		acertos_elements = 0;
 		acertos_position = 0;
+		radical_elements = "";
 		String shot = "";
 		String response = "";
 		state = "";
@@ -132,8 +133,8 @@ public class CachorroSolver implements Solver {
 	 * @param size
 	 * @return
 	 */
-	protected String generateElementsRadical(int size) {
-		String radical = "";
+	protected void generateElementsRadical(int size) {
+		radical_elements = "";
 
 		ArrayList<Character> charState = new ArrayList<Character>();
 		for (int i=0;i<size;i++) {
@@ -145,11 +146,10 @@ public class CachorroSolver implements Solver {
 		// coloca aleatoriamente 'acertos_elements' caracteres
 		// no inicio de 'radical' pegos do 'melhor state' atual
 		for (int i=0; i<acertos_elements; i++) {
-			radical = radical.concat(String.valueOf(charState.get(i)));
+			radical_elements = radical_elements.concat(String.valueOf(charState.get(i)));
 		}
 
 		charState.clear();
-		return radical;
 	}
 
 	/**
@@ -172,7 +172,7 @@ public class CachorroSolver implements Solver {
 		do {
 			loop++;
 			if (loop>size*2){
-				radical_elements = generateElementsRadical(size);
+				generateElementsRadical(size);
 			}
 			if (acertos_elements<size) {
 				s=radical_elements;
