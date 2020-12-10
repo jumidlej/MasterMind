@@ -13,24 +13,28 @@ public class CachorroSolver implements Solver {
         
 	HashMap<String, Integer> hash = new HashMap<String, Integer>();
 
-	public String state = "";
-	public String radical_elements = "";
-	public int acertos_elements = 0;
-	public int acertos_position = 0;
+	public String state; // melhor estado
+	public String radical_elements; // redical dos elementos
+	public int[] radical_position; // radical das posições
+	public int acertos_elements; // número de acertos do melhor estado
+	public int acertos_position; // número de acertos do melhor estado
 	/**
 	 * This method solves a mastermind game
 	 */
 	@Override
 	public int solve(Set<Character> charactersSet, int size, Answer answer){
 		ArrayList<Character> charArray = new ArrayList<Character>();
-		int acertos_e = 0;
-		int acertos_p = 0;
+		int acertos_e = 0; // número de acertos de elementos da tentativa
+		int acertos_p = 0; // número de acertos de posições da tentativa
+		String shot = ""; // tentativa
+		String response = ""; // análise da tentativa
+
+		// inicialização das variáveis
+		state = "";
+		radical_elements = "";
+		radical_position = new int[size];
 		acertos_elements = 0;
 		acertos_position = 0;
-		radical_elements = "";
-		String shot = "";
-		String response = "";
-		state = "";
 		
 		for (char c:charactersSet) {
 			charArray.add(c);
@@ -54,6 +58,7 @@ public class CachorroSolver implements Solver {
 
 		// gerar o primeiro radical
 		generateElementsRadical(size);
+		generatePositionRadical(size);
 
 		// System.out.println("Primeiro estado: " + state);
 		// System.out.println("Acertos (elements): " + acertos_elements);
@@ -97,6 +102,7 @@ public class CachorroSolver implements Solver {
 				// inicializa para mudar apenas as posições
 				if(acertos_elements==size){
 					acertos_position=acertos_p;
+					generatePositionRadical(size);
 				}
 			}
 			// não sabemos a posição dos elementos
@@ -104,6 +110,10 @@ public class CachorroSolver implements Solver {
 				if (acertos_p > acertos_position) {
 					state = shot;
 					acertos_position = acertos_p;
+					generatePositionRadical(size);
+				}
+				else if (acertos_p < acertos_position) {
+					generatePositionRadical(size);
 				}
 			}
 		}
@@ -152,6 +162,34 @@ public class CachorroSolver implements Solver {
 		charState.clear();
 	}
 
+	protected void generatePositionRadical(int size) {
+		Random rand = new Random();
+		boolean repetido=false;
+
+		// inicializa o radical
+		for (int i=0;i<size;i++) {
+			radical_position[i]=size+1;
+		}
+		
+		// faz um vetor de indices de caracteres do 'state'
+		// que queremos manter na mesma posição
+		for (int i=0; i<acertos_position;) {
+			int aux = rand.nextInt(size);
+			repetido=false;
+			for (int j=0;j<size;j++) {
+				if(aux==radical_position[j]) {
+					repetido=true;
+				}
+			}
+			if(!repetido) {
+				radical_position[i]=aux;
+				i++;
+			}
+		}
+
+		Arrays.sort(radical_position);
+	}
+
 	/**
 	 * This method generates a new random shot and inserts it into
 	 * the HashMap (used to test if the shot is new)
@@ -171,10 +209,10 @@ public class CachorroSolver implements Solver {
 		}
 		do {
 			loop++;
-			if (loop>size*2){
-				generateElementsRadical(size);
-			}
 			if (acertos_elements<size) {
+				if (loop>size*4){
+					generateElementsRadical(size);
+				}
 				s=radical_elements;
 				Collections.shuffle(charArray); //shuffles the array
 				// coloca aleatoriamente caracteres que faltam em 's'
@@ -186,33 +224,11 @@ public class CachorroSolver implements Solver {
 				}
 			}
 			else {
-				Random rand = new Random();
-				int[] radical_position = new int[size];
+				if (loop>size*4){
+					generatePositionRadical(size);
+				}
 				boolean repetido=false;
 				s="";
-
-				// inicializa o radical
-				for (int i=0;i<size;i++) {
-					radical_position[i]=size+1;
-				}
-				
-				// faz um vetor de indices de caracteres do 'state'
-				// que queremos manter na mesma posição
-				for (int i=0; i<acertos_position;) {
-					int aux = rand.nextInt(size);
-					repetido=false;
-					for (int j=0;j<size;j++) {
-						if(aux==radical_position[j]) {
-							repetido=true;
-						}
-					}
-					if(!repetido) {
-						radical_position[i]=aux;
-						i++;
-					}
-				}
-
-				Arrays.sort(radical_position);
 
 				// coloca os caracteres que sobraram em charState
 				for (int i=0;i<size;i++) {
