@@ -31,6 +31,8 @@ public class CachorroSolver implements Solver {
 		for (char c:charactersSet) {
 			charArray.add(c);
 		}
+
+		Collections.shuffle(charArray);
   
 		for (Integer i=0;i<size;i++) {
 			state = state.concat(String.valueOf(charArray.get(i)));
