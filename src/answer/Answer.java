@@ -4,6 +4,7 @@ public class Answer {
 	
 	int puzzleSize, numberOfTries;
 	char[] tokensArray;
+	int rightElements, rightPositions;
 	
 
 	/**
@@ -36,20 +37,26 @@ public class Answer {
 	 * b means a correct token in the correct place
 	 * w means a correct token, but misplaced and
 	 * o means tokens that are not correct. 
-	 * Moreover, it increments the number of tries counter
+	 * Moreover, it increments the number of tries counter and counts
+	 * rightElements: b+w and rightPositions: b
 	 * @param shot
 	 * @return
 	 */
 	public String analyze(String shot) {
 		String listO="", listW="", listB = "";
+		rightElements=0;
+		rightPositions=0;
 		for (int i=0;i<this.puzzleSize;i++) {
 			char c = shot.charAt(i);
 			String r = tokenIn(c, tokensArray, i);
 			if ("b".equals(r)) {
 				listB = listB.concat(r);
+				rightElements++;
+				rightPositions++;
 			}
 			if ("w".equals(r)) {
 				listW = listW.concat(r);
+				rightElements++;
 			}
 			if ("o".equals(r)) {
 				listO = listO.concat(r);
@@ -70,8 +77,6 @@ public class Answer {
 	 */
 	protected String tokenIn(char c, char[] tokens, int pos) {
 		
-		int numberOfB=0, numberOfW=0, numperOfO=0;
-		
 		for (int i=0; i< this.puzzleSize; i++) {
 			if (c==tokens[pos]) { //correct token in correct place 
 				return "b";
@@ -87,34 +92,19 @@ public class Answer {
 		return "o";
 	}
 
-	/**
-	 * This method generates a String having sequences of "b", "w" and "o" 
-	 * according parameters
-	 * NOT TESTED!
-	 * @param numberOfB
-	 * @param numberOfW
-	 * @param numberOfO
-	 * @return
-	 */
-	private String generateAnalisis(int numberOfB, int numberOfW, int numberOfO) {
-		String s = "";
-		for (int i=0;i<numberOfB;i++) {
-			s = s.concat("b");
-		}
-		for (int i=0;i<numberOfW;i++) {
-			s = s.concat("w");
-		}
-		for (int i=0;i<numberOfO;i++) {
-			s = s.concat("o");
-		}
-		return s;
-	}
-
 	public int getNumberOfTries() {
 		return numberOfTries;
 	}
 
 	public void setNumberOfTries(int numberOfTries) {
 		this.numberOfTries = numberOfTries;
+	}
+
+	public int getRightElements() {
+		return rightElements;
+	}
+
+	public int getRightPositions() {
+		return rightPositions;
 	}
 }
