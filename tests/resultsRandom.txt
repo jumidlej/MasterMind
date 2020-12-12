@@ -1,0 +1,300 @@
+Execucao 1 de 100
+Resposta encontrada! (15869) em 16736 Tentativas!
+16736
+Execucao 2 de 100
+Resposta encontrada! (15869) em 10342 Tentativas!
+10342
+Execucao 3 de 100
+Resposta encontrada! (15869) em 29194 Tentativas!
+29194
+Execucao 4 de 100
+Resposta encontrada! (15869) em 10781 Tentativas!
+10781
+Execucao 5 de 100
+Resposta encontrada! (15869) em 17675 Tentativas!
+17675
+Execucao 6 de 100
+Resposta encontrada! (15869) em 10675 Tentativas!
+10675
+Execucao 7 de 100
+Resposta encontrada! (15869) em 24263 Tentativas!
+24263
+Execucao 8 de 100
+Resposta encontrada! (15869) em 20861 Tentativas!
+20861
+Execucao 9 de 100
+Resposta encontrada! (15869) em 19157 Tentativas!
+19157
+Execucao 10 de 100
+Resposta encontrada! (15869) em 22825 Tentativas!
+22825
+Execucao 11 de 100
+Resposta encontrada! (15869) em 21824 Tentativas!
+21824
+Execucao 12 de 100
+Resposta encontrada! (15869) em 20270 Tentativas!
+20270
+Execucao 13 de 100
+Resposta encontrada! (15869) em 14274 Tentativas!
+14274
+Execucao 14 de 100
+Resposta encontrada! (15869) em 16114 Tentativas!
+16114
+Execucao 15 de 100
+Resposta encontrada! (15869) em 27120 Tentativas!
+27120
+Execucao 16 de 100
+Resposta encontrada! (15869) em 1642 Tentativas!
+1642
+Execucao 17 de 100
+Resposta encontrada! (15869) em 23613 Tentativas!
+23613
+Execucao 18 de 100
+Resposta encontrada! (15869) em 29618 Tentativas!
+29618
+Execucao 19 de 100
+Resposta encontrada! (15869) em 6193 Tentativas!
+6193
+Execucao 20 de 100
+Resposta encontrada! (15869) em 1640 Tentativas!
+1640
+Execucao 21 de 100
+Resposta encontrada! (15869) em 29998 Tentativas!
+29998
+Execucao 22 de 100
+Resposta encontrada! (15869) em 18219 Tentativas!
+18219
+Execucao 23 de 100
+Resposta encontrada! (15869) em 5369 Tentativas!
+5369
+Execucao 24 de 100
+Resposta encontrada! (15869) em 7042 Tentativas!
+7042
+Execucao 25 de 100
+Resposta encontrada! (15869) em 11526 Tentativas!
+11526
+Execucao 26 de 100
+Resposta encontrada! (15869) em 18237 Tentativas!
+18237
+Execucao 27 de 100
+Resposta encontrada! (15869) em 16468 Tentativas!
+16468
+Execucao 28 de 100
+Resposta encontrada! (15869) em 23534 Tentativas!
+23534
+Execucao 29 de 100
+Resposta encontrada! (15869) em 19246 Tentativas!
+19246
+Execucao 30 de 100
+Resposta encontrada! (15869) em 21853 Tentativas!
+21853
+Execucao 31 de 100
+Resposta encontrada! (15869) em 23261 Tentativas!
+23261
+Execucao 32 de 100
+Resposta encontrada! (15869) em 16006 Tentativas!
+16006
+Execucao 33 de 100
+Resposta encontrada! (15869) em 25960 Tentativas!
+25960
+Execucao 34 de 100
+Resposta encontrada! (15869) em 3807 Tentativas!
+3807
+Execucao 35 de 100
+Resposta encontrada! (15869) em 12429 Tentativas!
+12429
+Execucao 36 de 100
+Resposta encontrada! (15869) em 17648 Tentativas!
+17648
+Execucao 37 de 100
+Resposta encontrada! (15869) em 5475 Tentativas!
+5475
+Execucao 38 de 100
+Resposta encontrada! (15869) em 28616 Tentativas!
+28616
+Execucao 39 de 100
+Resposta encontrada! (15869) em 22270 Tentativas!
+22270
+Execucao 40 de 100
+Resposta encontrada! (15869) em 1577 Tentativas!
+1577
+Execucao 41 de 100
+Resposta encontrada! (15869) em 25067 Tentativas!
+25067
+Execucao 42 de 100
+Resposta encontrada! (15869) em 6253 Tentativas!
+6253
+Execucao 43 de 100
+Resposta encontrada! (15869) em 21760 Tentativas!
+21760
+Execucao 44 de 100
+Resposta encontrada! (15869) em 6002 Tentativas!
+6002
+Execucao 45 de 100
+Resposta encontrada! (15869) em 2769 Tentativas!
+2769
+Execucao 46 de 100
+Resposta encontrada! (15869) em 3989 Tentativas!
+3989
+Execucao 47 de 100
+Resposta encontrada! (15869) em 16086 Tentativas!
+16086
+Execucao 48 de 100
+Resposta encontrada! (15869) em 29026 Tentativas!
+29026
+Execucao 49 de 100
+Resposta encontrada! (15869) em 10208 Tentativas!
+10208
+Execucao 50 de 100
+Resposta encontrada! (15869) em 407 Tentativas!
+407
+Execucao 51 de 100
+Resposta encontrada! (15869) em 11708 Tentativas!
+11708
+Execucao 52 de 100
+Resposta encontrada! (15869) em 2213 Tentativas!
+2213
+Execucao 53 de 100
+Resposta encontrada! (15869) em 15259 Tentativas!
+15259
+Execucao 54 de 100
+Resposta encontrada! (15869) em 14287 Tentativas!
+14287
+Execucao 55 de 100
+Resposta encontrada! (15869) em 23954 Tentativas!
+23954
+Execucao 56 de 100
+Resposta encontrada! (15869) em 6946 Tentativas!
+6946
+Execucao 57 de 100
+Resposta encontrada! (15869) em 9203 Tentativas!
+9203
+Execucao 58 de 100
+Resposta encontrada! (15869) em 19321 Tentativas!
+19321
+Execucao 59 de 100
+Resposta encontrada! (15869) em 17358 Tentativas!
+17358
+Execucao 60 de 100
+Resposta encontrada! (15869) em 538 Tentativas!
+538
+Execucao 61 de 100
+Resposta encontrada! (15869) em 16498 Tentativas!
+16498
+Execucao 62 de 100
+Resposta encontrada! (15869) em 22746 Tentativas!
+22746
+Execucao 63 de 100
+Resposta encontrada! (15869) em 11995 Tentativas!
+11995
+Execucao 64 de 100
+Resposta encontrada! (15869) em 4639 Tentativas!
+4639
+Execucao 65 de 100
+Resposta encontrada! (15869) em 11781 Tentativas!
+11781
+Execucao 66 de 100
+Resposta encontrada! (15869) em 5877 Tentativas!
+5877
+Execucao 67 de 100
+Resposta encontrada! (15869) em 12579 Tentativas!
+12579
+Execucao 68 de 100
+Resposta encontrada! (15869) em 15657 Tentativas!
+15657
+Execucao 69 de 100
+Resposta encontrada! (15869) em 3415 Tentativas!
+3415
+Execucao 70 de 100
+Resposta encontrada! (15869) em 19235 Tentativas!
+19235
+Execucao 71 de 100
+Resposta encontrada! (15869) em 17094 Tentativas!
+17094
+Execucao 72 de 100
+Resposta encontrada! (15869) em 19349 Tentativas!
+19349
+Execucao 73 de 100
+Resposta encontrada! (15869) em 16334 Tentativas!
+16334
+Execucao 74 de 100
+Resposta encontrada! (15869) em 1693 Tentativas!
+1693
+Execucao 75 de 100
+Resposta encontrada! (15869) em 6181 Tentativas!
+6181
+Execucao 76 de 100
+Resposta encontrada! (15869) em 11897 Tentativas!
+11897
+Execucao 77 de 100
+Resposta encontrada! (15869) em 10151 Tentativas!
+10151
+Execucao 78 de 100
+Resposta encontrada! (15869) em 4725 Tentativas!
+4725
+Execucao 79 de 100
+Resposta encontrada! (15869) em 21620 Tentativas!
+21620
+Execucao 80 de 100
+Resposta encontrada! (15869) em 397 Tentativas!
+397
+Execucao 81 de 100
+Resposta encontrada! (15869) em 29182 Tentativas!
+29182
+Execucao 82 de 100
+Resposta encontrada! (15869) em 24479 Tentativas!
+24479
+Execucao 83 de 100
+Resposta encontrada! (15869) em 13104 Tentativas!
+13104
+Execucao 84 de 100
+Resposta encontrada! (15869) em 599 Tentativas!
+599
+Execucao 85 de 100
+Resposta encontrada! (15869) em 3551 Tentativas!
+3551
+Execucao 86 de 100
+Resposta encontrada! (15869) em 27168 Tentativas!
+27168
+Execucao 87 de 100
+Resposta encontrada! (15869) em 3431 Tentativas!
+3431
+Execucao 88 de 100
+Resposta encontrada! (15869) em 4471 Tentativas!
+4471
+Execucao 89 de 100
+Resposta encontrada! (15869) em 14970 Tentativas!
+14970
+Execucao 90 de 100
+Resposta encontrada! (15869) em 19564 Tentativas!
+19564
+Execucao 91 de 100
+Resposta encontrada! (15869) em 19742 Tentativas!
+19742
+Execucao 92 de 100
+Resposta encontrada! (15869) em 19545 Tentativas!
+19545
+Execucao 93 de 100
+Resposta encontrada! (15869) em 2498 Tentativas!
+2498
+Execucao 94 de 100
+Resposta encontrada! (15869) em 18284 Tentativas!
+18284
+Execucao 95 de 100
+Resposta encontrada! (15869) em 1453 Tentativas!
+1453
+Execucao 96 de 100
+Resposta encontrada! (15869) em 8753 Tentativas!
+8753
+Execucao 97 de 100
+Resposta encontrada! (15869) em 19742 Tentativas!
+19742
+Execucao 98 de 100
+Resposta encontrada! (15869) em 14839 Tentativas!
+14839
+Execucao 99 de 100
+Resposta encontrada! (15869) em 9310 Tentativas!
+9310
+Execucao 100 de 100
+Resposta encontrada! (15869) em 4475 Tentativas!
+4475
