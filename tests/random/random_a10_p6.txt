@@ -1,0 +1,300 @@
+Execucao 1 de 100
+Resposta encontrada! (752643) em 98015 Tentativas!
+98015
+Execucao 2 de 100
+Resposta encontrada! (752643) em 132871 Tentativas!
+132871
+Execucao 3 de 100
+Resposta encontrada! (752643) em 24254 Tentativas!
+24254
+Execucao 4 de 100
+Resposta encontrada! (752643) em 51528 Tentativas!
+51528
+Execucao 5 de 100
+Resposta encontrada! (752643) em 5074 Tentativas!
+5074
+Execucao 6 de 100
+Resposta encontrada! (752643) em 45300 Tentativas!
+45300
+Execucao 7 de 100
+Resposta encontrada! (752643) em 30130 Tentativas!
+30130
+Execucao 8 de 100
+Resposta encontrada! (752643) em 65979 Tentativas!
+65979
+Execucao 9 de 100
+Resposta encontrada! (752643) em 121712 Tentativas!
+121712
+Execucao 10 de 100
+Resposta encontrada! (752643) em 113809 Tentativas!
+113809
+Execucao 11 de 100
+Resposta encontrada! (752643) em 122326 Tentativas!
+122326
+Execucao 12 de 100
+Resposta encontrada! (752643) em 147179 Tentativas!
+147179
+Execucao 13 de 100
+Resposta encontrada! (752643) em 71784 Tentativas!
+71784
+Execucao 14 de 100
+Resposta encontrada! (752643) em 29356 Tentativas!
+29356
+Execucao 15 de 100
+Resposta encontrada! (752643) em 142770 Tentativas!
+142770
+Execucao 16 de 100
+Resposta encontrada! (752643) em 77467 Tentativas!
+77467
+Execucao 17 de 100
+Resposta encontrada! (752643) em 146607 Tentativas!
+146607
+Execucao 18 de 100
+Resposta encontrada! (752643) em 116344 Tentativas!
+116344
+Execucao 19 de 100
+Resposta encontrada! (752643) em 38860 Tentativas!
+38860
+Execucao 20 de 100
+Resposta encontrada! (752643) em 85246 Tentativas!
+85246
+Execucao 21 de 100
+Resposta encontrada! (752643) em 51752 Tentativas!
+51752
+Execucao 22 de 100
+Resposta encontrada! (752643) em 658 Tentativas!
+658
+Execucao 23 de 100
+Resposta encontrada! (752643) em 13599 Tentativas!
+13599
+Execucao 24 de 100
+Resposta encontrada! (752643) em 3618 Tentativas!
+3618
+Execucao 25 de 100
+Resposta encontrada! (752643) em 8241 Tentativas!
+8241
+Execucao 26 de 100
+Resposta encontrada! (752643) em 79714 Tentativas!
+79714
+Execucao 27 de 100
+Resposta encontrada! (752643) em 118692 Tentativas!
+118692
+Execucao 28 de 100
+Resposta encontrada! (752643) em 103822 Tentativas!
+103822
+Execucao 29 de 100
+Resposta encontrada! (752643) em 136948 Tentativas!
+136948
+Execucao 30 de 100
+Resposta encontrada! (752643) em 148655 Tentativas!
+148655
+Execucao 31 de 100
+Resposta encontrada! (752643) em 65052 Tentativas!
+65052
+Execucao 32 de 100
+Resposta encontrada! (752643) em 44231 Tentativas!
+44231
+Execucao 33 de 100
+Resposta encontrada! (752643) em 77200 Tentativas!
+77200
+Execucao 34 de 100
+Resposta encontrada! (752643) em 61054 Tentativas!
+61054
+Execucao 35 de 100
+Resposta encontrada! (752643) em 124453 Tentativas!
+124453
+Execucao 36 de 100
+Resposta encontrada! (752643) em 145007 Tentativas!
+145007
+Execucao 37 de 100
+Resposta encontrada! (752643) em 45890 Tentativas!
+45890
+Execucao 38 de 100
+Resposta encontrada! (752643) em 137437 Tentativas!
+137437
+Execucao 39 de 100
+Resposta encontrada! (752643) em 100426 Tentativas!
+100426
+Execucao 40 de 100
+Resposta encontrada! (752643) em 55644 Tentativas!
+55644
+Execucao 41 de 100
+Resposta encontrada! (752643) em 52632 Tentativas!
+52632
+Execucao 42 de 100
+Resposta encontrada! (752643) em 46539 Tentativas!
+46539
+Execucao 43 de 100
+Resposta encontrada! (752643) em 1161 Tentativas!
+1161
+Execucao 44 de 100
+Resposta encontrada! (752643) em 102713 Tentativas!
+102713
+Execucao 45 de 100
+Resposta encontrada! (752643) em 43415 Tentativas!
+43415
+Execucao 46 de 100
+Resposta encontrada! (752643) em 66710 Tentativas!
+66710
+Execucao 47 de 100
+Resposta encontrada! (752643) em 115506 Tentativas!
+115506
+Execucao 48 de 100
+Resposta encontrada! (752643) em 115502 Tentativas!
+115502
+Execucao 49 de 100
+Resposta encontrada! (752643) em 75236 Tentativas!
+75236
+Execucao 50 de 100
+Resposta encontrada! (752643) em 96829 Tentativas!
+96829
+Execucao 51 de 100
+Resposta encontrada! (752643) em 3856 Tentativas!
+3856
+Execucao 52 de 100
+Resposta encontrada! (752643) em 59884 Tentativas!
+59884
+Execucao 53 de 100
+Resposta encontrada! (752643) em 130471 Tentativas!
+130471
+Execucao 54 de 100
+Resposta encontrada! (752643) em 24537 Tentativas!
+24537
+Execucao 55 de 100
+Resposta encontrada! (752643) em 122762 Tentativas!
+122762
+Execucao 56 de 100
+Resposta encontrada! (752643) em 68890 Tentativas!
+68890
+Execucao 57 de 100
+Resposta encontrada! (752643) em 125966 Tentativas!
+125966
+Execucao 58 de 100
+Resposta encontrada! (752643) em 33586 Tentativas!
+33586
+Execucao 59 de 100
+Resposta encontrada! (752643) em 12993 Tentativas!
+12993
+Execucao 60 de 100
+Resposta encontrada! (752643) em 117334 Tentativas!
+117334
+Execucao 61 de 100
+Resposta encontrada! (752643) em 102593 Tentativas!
+102593
+Execucao 62 de 100
+Resposta encontrada! (752643) em 67219 Tentativas!
+67219
+Execucao 63 de 100
+Resposta encontrada! (752643) em 107948 Tentativas!
+107948
+Execucao 64 de 100
+Resposta encontrada! (752643) em 79487 Tentativas!
+79487
+Execucao 65 de 100
+Resposta encontrada! (752643) em 54110 Tentativas!
+54110
+Execucao 66 de 100
+Resposta encontrada! (752643) em 106240 Tentativas!
+106240
+Execucao 67 de 100
+Resposta encontrada! (752643) em 150026 Tentativas!
+150026
+Execucao 68 de 100
+Resposta encontrada! (752643) em 63792 Tentativas!
+63792
+Execucao 69 de 100
+Resposta encontrada! (752643) em 91493 Tentativas!
+91493
+Execucao 70 de 100
+Resposta encontrada! (752643) em 144223 Tentativas!
+144223
+Execucao 71 de 100
+Resposta encontrada! (752643) em 82280 Tentativas!
+82280
+Execucao 72 de 100
+Resposta encontrada! (752643) em 38658 Tentativas!
+38658
+Execucao 73 de 100
+Resposta encontrada! (752643) em 120066 Tentativas!
+120066
+Execucao 74 de 100
+Resposta encontrada! (752643) em 80246 Tentativas!
+80246
+Execucao 75 de 100
+Resposta encontrada! (752643) em 77203 Tentativas!
+77203
+Execucao 76 de 100
+Resposta encontrada! (752643) em 62661 Tentativas!
+62661
+Execucao 77 de 100
+Resposta encontrada! (752643) em 133372 Tentativas!
+133372
+Execucao 78 de 100
+Resposta encontrada! (752643) em 131421 Tentativas!
+131421
+Execucao 79 de 100
+Resposta encontrada! (752643) em 61799 Tentativas!
+61799
+Execucao 80 de 100
+Resposta encontrada! (752643) em 111965 Tentativas!
+111965
+Execucao 81 de 100
+Resposta encontrada! (752643) em 45971 Tentativas!
+45971
+Execucao 82 de 100
+Resposta encontrada! (752643) em 98947 Tentativas!
+98947
+Execucao 83 de 100
+Resposta encontrada! (752643) em 54985 Tentativas!
+54985
+Execucao 84 de 100
+Resposta encontrada! (752643) em 119534 Tentativas!
+119534
+Execucao 85 de 100
+Resposta encontrada! (752643) em 111802 Tentativas!
+111802
+Execucao 86 de 100
+Resposta encontrada! (752643) em 150890 Tentativas!
+150890
+Execucao 87 de 100
+Resposta encontrada! (752643) em 85780 Tentativas!
+85780
+Execucao 88 de 100
+Resposta encontrada! (752643) em 22277 Tentativas!
+22277
+Execucao 89 de 100
+Resposta encontrada! (752643) em 140112 Tentativas!
+140112
+Execucao 90 de 100
+Resposta encontrada! (752643) em 79506 Tentativas!
+79506
+Execucao 91 de 100
+Resposta encontrada! (752643) em 50507 Tentativas!
+50507
+Execucao 92 de 100
+Resposta encontrada! (752643) em 74518 Tentativas!
+74518
+Execucao 93 de 100
+Resposta encontrada! (752643) em 18323 Tentativas!
+18323
+Execucao 94 de 100
+Resposta encontrada! (752643) em 118258 Tentativas!
+118258
+Execucao 95 de 100
+Resposta encontrada! (752643) em 95545 Tentativas!
+95545
+Execucao 96 de 100
+Resposta encontrada! (752643) em 26978 Tentativas!
+26978
+Execucao 97 de 100
+Resposta encontrada! (752643) em 71368 Tentativas!
+71368
+Execucao 98 de 100
+Resposta encontrada! (752643) em 118090 Tentativas!
+118090
+Execucao 99 de 100
+Resposta encontrada! (752643) em 105034 Tentativas!
+105034
+Execucao 100 de 100
+Resposta encontrada! (752643) em 142247 Tentativas!
+142247

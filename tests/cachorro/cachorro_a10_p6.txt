@@ -1,0 +1,300 @@
+Execucao 1 de 100
+Resposta encontrada! (801296) em 31 Tentativas!
+31
+Execucao 2 de 100
+Resposta encontrada! (801296) em 30 Tentativas!
+30
+Execucao 3 de 100
+Resposta encontrada! (801296) em 48 Tentativas!
+48
+Execucao 4 de 100
+Resposta encontrada! (801296) em 39 Tentativas!
+39
+Execucao 5 de 100
+Resposta encontrada! (801296) em 26 Tentativas!
+26
+Execucao 6 de 100
+Resposta encontrada! (801296) em 42 Tentativas!
+42
+Execucao 7 de 100
+Resposta encontrada! (801296) em 26 Tentativas!
+26
+Execucao 8 de 100
+Resposta encontrada! (801296) em 25 Tentativas!
+25
+Execucao 9 de 100
+Resposta encontrada! (801296) em 25 Tentativas!
+25
+Execucao 10 de 100
+Resposta encontrada! (801296) em 27 Tentativas!
+27
+Execucao 11 de 100
+Resposta encontrada! (801296) em 37 Tentativas!
+37
+Execucao 12 de 100
+Resposta encontrada! (801296) em 31 Tentativas!
+31
+Execucao 13 de 100
+Resposta encontrada! (801296) em 23 Tentativas!
+23
+Execucao 14 de 100
+Resposta encontrada! (801296) em 36 Tentativas!
+36
+Execucao 15 de 100
+Resposta encontrada! (801296) em 30 Tentativas!
+30
+Execucao 16 de 100
+Resposta encontrada! (801296) em 31 Tentativas!
+31
+Execucao 17 de 100
+Resposta encontrada! (801296) em 15 Tentativas!
+15
+Execucao 18 de 100
+Resposta encontrada! (801296) em 41 Tentativas!
+41
+Execucao 19 de 100
+Resposta encontrada! (801296) em 62 Tentativas!
+62
+Execucao 20 de 100
+Resposta encontrada! (801296) em 27 Tentativas!
+27
+Execucao 21 de 100
+Resposta encontrada! (801296) em 32 Tentativas!
+32
+Execucao 22 de 100
+Resposta encontrada! (801296) em 39 Tentativas!
+39
+Execucao 23 de 100
+Resposta encontrada! (801296) em 41 Tentativas!
+41
+Execucao 24 de 100
+Resposta encontrada! (801296) em 28 Tentativas!
+28
+Execucao 25 de 100
+Resposta encontrada! (801296) em 42 Tentativas!
+42
+Execucao 26 de 100
+Resposta encontrada! (801296) em 40 Tentativas!
+40
+Execucao 27 de 100
+Resposta encontrada! (801296) em 51 Tentativas!
+51
+Execucao 28 de 100
+Resposta encontrada! (801296) em 51 Tentativas!
+51
+Execucao 29 de 100
+Resposta encontrada! (801296) em 37 Tentativas!
+37
+Execucao 30 de 100
+Resposta encontrada! (801296) em 28 Tentativas!
+28
+Execucao 31 de 100
+Resposta encontrada! (801296) em 18 Tentativas!
+18
+Execucao 32 de 100
+Resposta encontrada! (801296) em 40 Tentativas!
+40
+Execucao 33 de 100
+Resposta encontrada! (801296) em 27 Tentativas!
+27
+Execucao 34 de 100
+Resposta encontrada! (801296) em 49 Tentativas!
+49
+Execucao 35 de 100
+Resposta encontrada! (801296) em 34 Tentativas!
+34
+Execucao 36 de 100
+Resposta encontrada! (801296) em 22 Tentativas!
+22
+Execucao 37 de 100
+Resposta encontrada! (801296) em 52 Tentativas!
+52
+Execucao 38 de 100
+Resposta encontrada! (801296) em 33 Tentativas!
+33
+Execucao 39 de 100
+Resposta encontrada! (801296) em 45 Tentativas!
+45
+Execucao 40 de 100
+Resposta encontrada! (801296) em 24 Tentativas!
+24
+Execucao 41 de 100
+Resposta encontrada! (801296) em 28 Tentativas!
+28
+Execucao 42 de 100
+Resposta encontrada! (801296) em 20 Tentativas!
+20
+Execucao 43 de 100
+Resposta encontrada! (801296) em 54 Tentativas!
+54
+Execucao 44 de 100
+Resposta encontrada! (801296) em 44 Tentativas!
+44
+Execucao 45 de 100
+Resposta encontrada! (801296) em 35 Tentativas!
+35
+Execucao 46 de 100
+Resposta encontrada! (801296) em 92 Tentativas!
+92
+Execucao 47 de 100
+Resposta encontrada! (801296) em 22 Tentativas!
+22
+Execucao 48 de 100
+Resposta encontrada! (801296) em 27 Tentativas!
+27
+Execucao 49 de 100
+Resposta encontrada! (801296) em 69 Tentativas!
+69
+Execucao 50 de 100
+Resposta encontrada! (801296) em 50 Tentativas!
+50
+Execucao 51 de 100
+Resposta encontrada! (801296) em 16 Tentativas!
+16
+Execucao 52 de 100
+Resposta encontrada! (801296) em 51 Tentativas!
+51
+Execucao 53 de 100
+Resposta encontrada! (801296) em 63 Tentativas!
+63
+Execucao 54 de 100
+Resposta encontrada! (801296) em 16 Tentativas!
+16
+Execucao 55 de 100
+Resposta encontrada! (801296) em 39 Tentativas!
+39
+Execucao 56 de 100
+Resposta encontrada! (801296) em 34 Tentativas!
+34
+Execucao 57 de 100
+Resposta encontrada! (801296) em 33 Tentativas!
+33
+Execucao 58 de 100
+Resposta encontrada! (801296) em 36 Tentativas!
+36
+Execucao 59 de 100
+Resposta encontrada! (801296) em 41 Tentativas!
+41
+Execucao 60 de 100
+Resposta encontrada! (801296) em 14 Tentativas!
+14
+Execucao 61 de 100
+Resposta encontrada! (801296) em 25 Tentativas!
+25
+Execucao 62 de 100
+Resposta encontrada! (801296) em 42 Tentativas!
+42
+Execucao 63 de 100
+Resposta encontrada! (801296) em 29 Tentativas!
+29
+Execucao 64 de 100
+Resposta encontrada! (801296) em 30 Tentativas!
+30
+Execucao 65 de 100
+Resposta encontrada! (801296) em 45 Tentativas!
+45
+Execucao 66 de 100
+Resposta encontrada! (801296) em 29 Tentativas!
+29
+Execucao 67 de 100
+Resposta encontrada! (801296) em 58 Tentativas!
+58
+Execucao 68 de 100
+Resposta encontrada! (801296) em 15 Tentativas!
+15
+Execucao 69 de 100
+Resposta encontrada! (801296) em 19 Tentativas!
+19
+Execucao 70 de 100
+Resposta encontrada! (801296) em 26 Tentativas!
+26
+Execucao 71 de 100
+Resposta encontrada! (801296) em 26 Tentativas!
+26
+Execucao 72 de 100
+Resposta encontrada! (801296) em 24 Tentativas!
+24
+Execucao 73 de 100
+Resposta encontrada! (801296) em 35 Tentativas!
+35
+Execucao 74 de 100
+Resposta encontrada! (801296) em 27 Tentativas!
+27
+Execucao 75 de 100
+Resposta encontrada! (801296) em 24 Tentativas!
+24
+Execucao 76 de 100
+Resposta encontrada! (801296) em 27 Tentativas!
+27
+Execucao 77 de 100
+Resposta encontrada! (801296) em 41 Tentativas!
+41
+Execucao 78 de 100
+Resposta encontrada! (801296) em 23 Tentativas!
+23
+Execucao 79 de 100
+Resposta encontrada! (801296) em 31 Tentativas!
+31
+Execucao 80 de 100
+Resposta encontrada! (801296) em 37 Tentativas!
+37
+Execucao 81 de 100
+Resposta encontrada! (801296) em 59 Tentativas!
+59
+Execucao 82 de 100
+Resposta encontrada! (801296) em 23 Tentativas!
+23
+Execucao 83 de 100
+Resposta encontrada! (801296) em 24 Tentativas!
+24
+Execucao 84 de 100
+Resposta encontrada! (801296) em 26 Tentativas!
+26
+Execucao 85 de 100
+Resposta encontrada! (801296) em 49 Tentativas!
+49
+Execucao 86 de 100
+Resposta encontrada! (801296) em 34 Tentativas!
+34
+Execucao 87 de 100
+Resposta encontrada! (801296) em 35 Tentativas!
+35
+Execucao 88 de 100
+Resposta encontrada! (801296) em 49 Tentativas!
+49
+Execucao 89 de 100
+Resposta encontrada! (801296) em 26 Tentativas!
+26
+Execucao 90 de 100
+Resposta encontrada! (801296) em 62 Tentativas!
+62
+Execucao 91 de 100
+Resposta encontrada! (801296) em 43 Tentativas!
+43
+Execucao 92 de 100
+Resposta encontrada! (801296) em 32 Tentativas!
+32
+Execucao 93 de 100
+Resposta encontrada! (801296) em 38 Tentativas!
+38
+Execucao 94 de 100
+Resposta encontrada! (801296) em 22 Tentativas!
+22
+Execucao 95 de 100
+Resposta encontrada! (801296) em 37 Tentativas!
+37
+Execucao 96 de 100
+Resposta encontrada! (801296) em 53 Tentativas!
+53
+Execucao 97 de 100
+Resposta encontrada! (801296) em 29 Tentativas!
+29
+Execucao 98 de 100
+Resposta encontrada! (801296) em 33 Tentativas!
+33
+Execucao 99 de 100
+Resposta encontrada! (801296) em 19 Tentativas!
+19
+Execucao 100 de 100
+Resposta encontrada! (801296) em 18 Tentativas!
+18

@@ -1,0 +1,300 @@
+Execucao 1 de 100
+Resposta encontrada! (5784) em 302 Tentativas!
+302
+Execucao 2 de 100
+Resposta encontrada! (5784) em 3790 Tentativas!
+3790
+Execucao 3 de 100
+Resposta encontrada! (5784) em 3952 Tentativas!
+3952
+Execucao 4 de 100
+Resposta encontrada! (5784) em 4816 Tentativas!
+4816
+Execucao 5 de 100
+Resposta encontrada! (5784) em 1686 Tentativas!
+1686
+Execucao 6 de 100
+Resposta encontrada! (5784) em 2635 Tentativas!
+2635
+Execucao 7 de 100
+Resposta encontrada! (5784) em 1578 Tentativas!
+1578
+Execucao 8 de 100
+Resposta encontrada! (5784) em 2990 Tentativas!
+2990
+Execucao 9 de 100
+Resposta encontrada! (5784) em 2804 Tentativas!
+2804
+Execucao 10 de 100
+Resposta encontrada! (5784) em 1984 Tentativas!
+1984
+Execucao 11 de 100
+Resposta encontrada! (5784) em 4342 Tentativas!
+4342
+Execucao 12 de 100
+Resposta encontrada! (5784) em 1438 Tentativas!
+1438
+Execucao 13 de 100
+Resposta encontrada! (5784) em 3568 Tentativas!
+3568
+Execucao 14 de 100
+Resposta encontrada! (5784) em 1687 Tentativas!
+1687
+Execucao 15 de 100
+Resposta encontrada! (5784) em 44 Tentativas!
+44
+Execucao 16 de 100
+Resposta encontrada! (5784) em 315 Tentativas!
+315
+Execucao 17 de 100
+Resposta encontrada! (5784) em 2449 Tentativas!
+2449
+Execucao 18 de 100
+Resposta encontrada! (5784) em 1917 Tentativas!
+1917
+Execucao 19 de 100
+Resposta encontrada! (5784) em 2208 Tentativas!
+2208
+Execucao 20 de 100
+Resposta encontrada! (5784) em 674 Tentativas!
+674
+Execucao 21 de 100
+Resposta encontrada! (5784) em 2384 Tentativas!
+2384
+Execucao 22 de 100
+Resposta encontrada! (5784) em 4020 Tentativas!
+4020
+Execucao 23 de 100
+Resposta encontrada! (5784) em 2034 Tentativas!
+2034
+Execucao 24 de 100
+Resposta encontrada! (5784) em 353 Tentativas!
+353
+Execucao 25 de 100
+Resposta encontrada! (5784) em 1299 Tentativas!
+1299
+Execucao 26 de 100
+Resposta encontrada! (5784) em 2628 Tentativas!
+2628
+Execucao 27 de 100
+Resposta encontrada! (5784) em 4242 Tentativas!
+4242
+Execucao 28 de 100
+Resposta encontrada! (5784) em 4704 Tentativas!
+4704
+Execucao 29 de 100
+Resposta encontrada! (5784) em 2819 Tentativas!
+2819
+Execucao 30 de 100
+Resposta encontrada! (5784) em 1754 Tentativas!
+1754
+Execucao 31 de 100
+Resposta encontrada! (5784) em 2810 Tentativas!
+2810
+Execucao 32 de 100
+Resposta encontrada! (5784) em 1921 Tentativas!
+1921
+Execucao 33 de 100
+Resposta encontrada! (5784) em 3676 Tentativas!
+3676
+Execucao 34 de 100
+Resposta encontrada! (5784) em 1620 Tentativas!
+1620
+Execucao 35 de 100
+Resposta encontrada! (5784) em 3959 Tentativas!
+3959
+Execucao 36 de 100
+Resposta encontrada! (5784) em 3815 Tentativas!
+3815
+Execucao 37 de 100
+Resposta encontrada! (5784) em 1812 Tentativas!
+1812
+Execucao 38 de 100
+Resposta encontrada! (5784) em 2159 Tentativas!
+2159
+Execucao 39 de 100
+Resposta encontrada! (5784) em 1472 Tentativas!
+1472
+Execucao 40 de 100
+Resposta encontrada! (5784) em 1160 Tentativas!
+1160
+Execucao 41 de 100
+Resposta encontrada! (5784) em 188 Tentativas!
+188
+Execucao 42 de 100
+Resposta encontrada! (5784) em 291 Tentativas!
+291
+Execucao 43 de 100
+Resposta encontrada! (5784) em 1174 Tentativas!
+1174
+Execucao 44 de 100
+Resposta encontrada! (5784) em 3113 Tentativas!
+3113
+Execucao 45 de 100
+Resposta encontrada! (5784) em 2940 Tentativas!
+2940
+Execucao 46 de 100
+Resposta encontrada! (5784) em 3055 Tentativas!
+3055
+Execucao 47 de 100
+Resposta encontrada! (5784) em 4772 Tentativas!
+4772
+Execucao 48 de 100
+Resposta encontrada! (5784) em 1509 Tentativas!
+1509
+Execucao 49 de 100
+Resposta encontrada! (5784) em 4999 Tentativas!
+4999
+Execucao 50 de 100
+Resposta encontrada! (5784) em 3748 Tentativas!
+3748
+Execucao 51 de 100
+Resposta encontrada! (5784) em 4693 Tentativas!
+4693
+Execucao 52 de 100
+Resposta encontrada! (5784) em 2567 Tentativas!
+2567
+Execucao 53 de 100
+Resposta encontrada! (5784) em 2701 Tentativas!
+2701
+Execucao 54 de 100
+Resposta encontrada! (5784) em 3747 Tentativas!
+3747
+Execucao 55 de 100
+Resposta encontrada! (5784) em 310 Tentativas!
+310
+Execucao 56 de 100
+Resposta encontrada! (5784) em 2396 Tentativas!
+2396
+Execucao 57 de 100
+Resposta encontrada! (5784) em 4810 Tentativas!
+4810
+Execucao 58 de 100
+Resposta encontrada! (5784) em 2665 Tentativas!
+2665
+Execucao 59 de 100
+Resposta encontrada! (5784) em 1154 Tentativas!
+1154
+Execucao 60 de 100
+Resposta encontrada! (5784) em 1599 Tentativas!
+1599
+Execucao 61 de 100
+Resposta encontrada! (5784) em 339 Tentativas!
+339
+Execucao 62 de 100
+Resposta encontrada! (5784) em 2590 Tentativas!
+2590
+Execucao 63 de 100
+Resposta encontrada! (5784) em 4507 Tentativas!
+4507
+Execucao 64 de 100
+Resposta encontrada! (5784) em 3944 Tentativas!
+3944
+Execucao 65 de 100
+Resposta encontrada! (5784) em 2545 Tentativas!
+2545
+Execucao 66 de 100
+Resposta encontrada! (5784) em 249 Tentativas!
+249
+Execucao 67 de 100
+Resposta encontrada! (5784) em 687 Tentativas!
+687
+Execucao 68 de 100
+Resposta encontrada! (5784) em 2392 Tentativas!
+2392
+Execucao 69 de 100
+Resposta encontrada! (5784) em 2767 Tentativas!
+2767
+Execucao 70 de 100
+Resposta encontrada! (5784) em 4772 Tentativas!
+4772
+Execucao 71 de 100
+Resposta encontrada! (5784) em 547 Tentativas!
+547
+Execucao 72 de 100
+Resposta encontrada! (5784) em 2459 Tentativas!
+2459
+Execucao 73 de 100
+Resposta encontrada! (5784) em 2633 Tentativas!
+2633
+Execucao 74 de 100
+Resposta encontrada! (5784) em 3235 Tentativas!
+3235
+Execucao 75 de 100
+Resposta encontrada! (5784) em 2873 Tentativas!
+2873
+Execucao 76 de 100
+Resposta encontrada! (5784) em 529 Tentativas!
+529
+Execucao 77 de 100
+Resposta encontrada! (5784) em 476 Tentativas!
+476
+Execucao 78 de 100
+Resposta encontrada! (5784) em 1750 Tentativas!
+1750
+Execucao 79 de 100
+Resposta encontrada! (5784) em 4217 Tentativas!
+4217
+Execucao 80 de 100
+Resposta encontrada! (5784) em 1106 Tentativas!
+1106
+Execucao 81 de 100
+Resposta encontrada! (5784) em 805 Tentativas!
+805
+Execucao 82 de 100
+Resposta encontrada! (5784) em 3106 Tentativas!
+3106
+Execucao 83 de 100
+Resposta encontrada! (5784) em 383 Tentativas!
+383
+Execucao 84 de 100
+Resposta encontrada! (5784) em 3704 Tentativas!
+3704
+Execucao 85 de 100
+Resposta encontrada! (5784) em 3054 Tentativas!
+3054
+Execucao 86 de 100
+Resposta encontrada! (5784) em 1831 Tentativas!
+1831
+Execucao 87 de 100
+Resposta encontrada! (5784) em 1977 Tentativas!
+1977
+Execucao 88 de 100
+Resposta encontrada! (5784) em 3623 Tentativas!
+3623
+Execucao 89 de 100
+Resposta encontrada! (5784) em 3879 Tentativas!
+3879
+Execucao 90 de 100
+Resposta encontrada! (5784) em 2918 Tentativas!
+2918
+Execucao 91 de 100
+Resposta encontrada! (5784) em 536 Tentativas!
+536
+Execucao 92 de 100
+Resposta encontrada! (5784) em 565 Tentativas!
+565
+Execucao 93 de 100
+Resposta encontrada! (5784) em 1012 Tentativas!
+1012
+Execucao 94 de 100
+Resposta encontrada! (5784) em 801 Tentativas!
+801
+Execucao 95 de 100
+Resposta encontrada! (5784) em 2236 Tentativas!
+2236
+Execucao 96 de 100
+Resposta encontrada! (5784) em 4690 Tentativas!
+4690
+Execucao 97 de 100
+Resposta encontrada! (5784) em 358 Tentativas!
+358
+Execucao 98 de 100
+Resposta encontrada! (5784) em 3676 Tentativas!
+3676
+Execucao 99 de 100
+Resposta encontrada! (5784) em 3524 Tentativas!
+3524
+Execucao 100 de 100
+Resposta encontrada! (5784) em 4468 Tentativas!
+4468
